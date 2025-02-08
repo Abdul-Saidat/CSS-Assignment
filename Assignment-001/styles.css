@@ -1,0 +1,60 @@
+/* body {
+     background-color: black;
+} */
+
+.parent {
+    background-color: #000;
+    height: 380px;
+    width: 600px;
+    padding-inline: 100px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-block: 90px;
+    margin-inline: 220px;
+    position: absolute;
+}
+
+
+.flexbox {
+    display: flex;
+    margin-block: 75px;
+    margin-inline: 0px;
+}
+
+.container {
+    background-color: purple;
+    color: black;
+    width: 280px;
+    height: 70px;
+    z-index: 1;
+    border-radius: 3px;
+    position: absolute; 
+    padding-inline: 5px;
+    padding-block: 5px;
+    margin-inline: 30px;
+    margin-top: 60px;
+}
+
+.flex-cell {
+    height: 240px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    position: relative;
+    overflow: visible;
+}
+
+p {
+    display: inline-flex;
+    padding-inline: 30px;
+    padding-block: 80px;
+    line-height: 22px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-block: 10px;
+    padding-block: 2px;
+}

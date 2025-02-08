@@ -1,0 +1,198 @@
+.container {
+      background-color: #F7FDFC;
+}
+
+.rightcontainer {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+}
+
+.container {
+        width: 1280px;
+        height: 900px;
+    }
+
+    .logocontent {
+        width: 460px;
+        height: 285px;
+        position: absolute;
+        left: 90px;
+        top: 200px;
+    }
+
+    form {
+        gap: 15px;
+    }
+
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    p {
+        color: #737373;
+        font-family: Brown;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .rightcontainer {
+        width: 630px;
+        height: 800px;
+        position: absolute;
+        top: 60px;
+        left: 600px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+ .column {
+    margin-inline: 30px;
+    margin-block: 40px;
+    flex: 1; 
+    
+ }
+
+#full-width {
+    display: block;
+    margin-inline: 30px;
+    margin-top: -60px;
+} 
+
+.Activity {
+    width: 500px;
+    height: 48px;
+}
+
+label {
+     display: block; 
+    font-size: 18px;
+    font-weight: 600;
+    color: #011C34;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+input {
+    width: 238px;
+    height: 48px;
+}
+
+button {
+    width: 500px;
+    height: 48px;
+    background: #2EC4B6;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    margin-inline: 30px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-inline: 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 38.67px;
+        height: 40px;
+    }
+
+    h1 p .rightcontainer{
+        width: 327px;
+    }
+
+    h1 {
+        height: 30px;
+    }
+
+    p {
+        height: 50px;
+    }
+
+    form {
+        gap: 0px;
+    }
+
+    .rightcontainer {
+        width: 327px;
+        height: 870px;
+        display: inline;
+        top: 350px;
+        left: 20px;
+    }
+
+    .column {
+        margin-inline: 10px;
+        margin-block: 10px;
+    }
+
+    label {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 295px;
+        height: 48px;
+    }
+
+    button {
+        width: 295px;
+        height: 48px;
+        margin-inline: 10px;
+        margin-block: 50px;
+    }
+
+    footer {
+        margin-inline: 10px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    a {
+        color: #2EC4B6;
+    }
+
+    #full-width {
+        margin-inline: 10px;
+        margin-top: 0px;
+    }
+
+    .Activity {
+        width: 295px;
+        height: 48px;
+    }
+
+    .container {
+        width: 375px;
+        height: 1294px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .logocontent {
+        height: 150px;
+        width: 290px;
+        top: 40px;
+        left: 20px;
+        position: relative;
+    }
+
+    body {
+        display: flex;
+    }
+}
+
+
