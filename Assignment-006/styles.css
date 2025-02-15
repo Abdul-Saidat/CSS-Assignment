@@ -1,10 +1,3 @@
-/* font-family: 'Gilroy-Bold', sans-serif;
-font-family: 'Gilroy-Heavy', sans-serif;
-font-family: 'Gilroy-Light', sans-serif;
-font-family: 'Gilroy-Medium', sans-serif;
-font-family: 'Gilroy-Regular', sans-serif;
- */
-
 body {
     display: flex;
     justify-content: center;
@@ -17,10 +10,10 @@ body {
 
 .hero-section {
     height: 190vh;
-    background-color: rgb(235, 252, 252);
+    background-color: #fdf6f6;  
 }
  
-.header {
+.hero-section header.header {
     width: 910px;
     height: 44px;
     margin-inline: 100px;
@@ -28,7 +21,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-block: 20px;
-    /* background-color: wheat; */
 } 
  
 nav {
@@ -38,9 +30,9 @@ nav {
 } 
 
 .to-pages {
+    list-style-type: none;
     width: 400px;
     height: 30px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,17 +53,15 @@ li:nth-child(n):nth-child(n+2) a {
 .log-in {
     width: 211px;
     height: 30px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 16px;
 }
 
-li {
+div.topages li, div.log-in li {
     list-style-type: none; 
     display: inline;
-    /* margin-inline: 10px; */
 }
 
 a {
@@ -79,6 +69,7 @@ a {
 }
 
 nav .log-in li span.with-border {
+    list-style-type: none;
     color: white;
     border: 2px solid #0065FE;
     background-color: #0065FE;
@@ -105,7 +96,7 @@ nav .log-in li span.with-border {
     height: 305px;
 }
 
-h1 {
+div.experience h1 {
     padding-inline: 140px;
     line-height: 80px;
     font-family: 'Gilroy-Bold', sans-serif;
@@ -119,7 +110,6 @@ h1 {
     content: url(assets/images/Vector\ 3.png);
     position: absolute;
     top: 40%;
-    /* bottom: 25%; */
     left: 49%;
     width: 173.63px;
     height: 19.91px;
@@ -142,7 +132,6 @@ h1 {
 .sign-up {
     width: 282px;
     height: 44px;
-    /* border: 1px solid #005AE2; */
     position: relative;
     margin-inline: 360px;
     margin-block: 37px;
@@ -172,7 +161,6 @@ h1 {
 .Group-2 {
     width: 833px;
     height: 336.57px;
-    /* border: 1px solid black; */
     position: absolute;
     margin-block: 700px;
     margin-inline: 200px;
@@ -188,7 +176,6 @@ h1 {
     background: #fefefe8a;
     border: 0.5px solid #bfd1ec;
     border-radius: 20px;
-    /* backdrop-filter: blur(212px); */
 }
 
 .frame {
@@ -223,14 +210,12 @@ h1 {
  /* Styling desktop-10 */
 .desktop-10 {
     height: 982px;
-    /* border: 2px solid black; */
 }
 
 .possibilities {
     height: 220px;
     display: flex;
     background-color: #F9FBFD;
-    /* border-bottom: 1px solid black; */
 }
 
 .content1 {
@@ -241,7 +226,6 @@ h1 {
 }
 
 .content1 p {
-    /* font-family: 'Gilroy-Bold', sans-serif; */
     font-family: 'Gilroy-Heavy', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -390,9 +374,494 @@ h1 {
 
 /* Styling Desktop-1 */
 
-/* font-family: 'Gilroy-Bold', sans-serif;
-font-family: 'Gilroy-Heavy', sans-serif;
-font-family: 'Gilroy-Light', sans-serif;
-font-family: 'Gilroy-Medium', sans-serif;
-font-family: 'Gilroy-Regular', sans-serif;
- */
+.desktop-1 {
+    height: 1073px;
+    width: initial;
+}
+
+.desktop-1 > div.header {
+    width: 560px;
+    height: 108px;
+    display: inline;
+    position: relative;
+    text-align: center;
+} 
+
+.desktop-1 div.header h1 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 40px;
+}
+
+.desktop-1 div.header h1 span {
+    color: #005AE2;
+}
+
+.desktop-1 div.header p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 16px;
+    width: 556px;
+    height: 52px;
+    position: relative;
+    left: 300px;
+    bottom: 0px;
+    text-align: center; 
+}
+
+.desktop-1 div.body {
+    display: flex;
+    width: 1088px;
+    height: 627px;
+    margin-inline: 50px;
+    margin-block: 50px; 
+}
+
+.desktop-1 .basic {
+    width: 379px;
+    height: 455px;
+    margin-block: 80px;
+    box-shadow: 0px 4px 8px 0px #0000000D;
+    border: 0.4px solid #005AE2;
+    border-radius: 10px;
+}
+
+.desktop-1 div.basic header {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 24px;
+    margin-inline: 80px;
+    margin-block: 30px;
+}
+
+.desktop-1 div.free {
+    width: 194px;
+    height: 320px;
+    margin-inline: 80px;
+    margin-block: 40px;
+}
+
+
+.desktop-1 div.free h1 {
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.desktop-1 div.free p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+}
+
+.desktop-1 .plans {
+    width: 186px;
+    height: 216px; 
+}
+
+.plans li {
+    list-style-type: none;
+    padding-block: 10px;  
+}
+
+.plans li p.list-p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    display: inline;
+    margin-inline: 2px;
+    margin-top: 100px;
+}
+
+.desktop-1 .professional {
+    width: 410px;
+    height: 627px;
+    box-shadow: 0px 4px 8px 0px #0000000D;
+    background-color: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    background-color: #1E3448;
+    border-radius: 10px;
+    position: relative;
+    right: 40px; 
+}
+
+.professional header {
+    color: #FFFFFF;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 24px;
+    margin-inline: 70px;
+    margin-top: 90px; 
+}
+
+.professional .price {
+    width: 239px;
+    height: 328px;
+    background-color: #1E3448;
+    margin-inline: 70px;
+    margin-block: 30px;
+}
+
+.price strong {
+    color: #FFFFFF;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 40px;
+}
+
+.monthly p {
+    color: #FFFFFF;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+}
+
+.professional .benefits {
+    width: 216px;
+    height: 216px;
+    margin-block: 40px;
+}
+
+.benefits li {
+    list-style-type: none;
+    color: #FFFFFF;
+    padding-block: 10px;
+}
+
+.teams {
+    width: 370px;
+    height: 455px;
+    border-top: 0.4px solid #005AE2;
+    border-top-left-radius: 0px;
+    border: 0.4px solid #005AE2;
+    box-shadow: 0px 4px 8px 0px #0000000D;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    top: 70px;
+    right: 41px;  
+}
+
+.teams header {
+    margin-inline: 50px;
+    margin-top: 30px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 24px;
+}
+
+.teams .team-price {
+    width: 227px;
+    height: 320px;
+    margin-inline: 50px;
+    margin-block: 30px;
+}
+
+.team-price strong {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 40px;
+}
+
+.team-price p {
+    font-size: 20px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.team-price li {
+    list-style-type: none;
+    padding-block: 10px;
+    margin-inline: 0px;
+}
+
+.bottom-link {
+    width: 412px;
+    height: 48px;
+    margin-inline: 350px;
+    margin-block: 75px;
+    display: flex;
+    padding-inline: 30px;
+    gap: 30px;
+}
+
+.bottom-link li {
+    list-style-type: none;
+}
+
+.bottom-link li.noback-color {
+    border: 1px solid #0065FE;
+    padding-block: 15px;
+    padding-inline: 20px;
+    border-radius: 30px;
+    color: #0065FE;
+}
+
+.bottom-link li.back-color {
+    border: 1px solid #0065FE;
+    padding-block: 15px;
+    padding-inline: 30px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color: #0065FE;
+}
+
+/* done with desktop-1 */
+
+/* styling desktop-11 */
+.desktop-11 {
+    width: initial;
+    height: 500px;
+    background-color: #1e3448;
+}
+
+.desktop-11 .form {
+    width: 476px;
+    height: 355px;
+    background-color: #FFF;
+    border-radius: 10px;
+    position: absolute;
+    margin-inline: 350px;
+    margin-top: 70px;
+}
+
+.form{
+    color: #0065FE;
+}
+
+form {
+    margin-inline: 50px;
+    margin-block: 40px;
+}
+ 
+input:focus {
+    outline: none;
+    box-shadow: none;
+} 
+
+input::placeholder {
+    color: #3284FF;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 12px;
+    padding-inline: 20px;
+}
+
+.input1 {
+    width: 392px;
+    height: 55px;
+    border: 1px solid #3284FF; 
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.input2 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.input2 .input2-a {
+    width: 202px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #3284FF;
+}
+
+.input2 .input2-b {
+    width: 178px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #3284FF;
+}
+
+button {
+    background-color: #0065FE;
+    width: 392px;
+    height: 48px;
+    border: none;
+    border-radius: 30px;
+}
+
+button span.trim {
+    color: #fff;
+    position: relative;
+    bottom: 5px;
+}
+
+p.lightblue {
+    color: #4991FF;
+    font-size: 14px;
+    font-family: 'Gilroy-Medium', sans-serif; 
+}
+
+p span.bold {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    color: #3284FF;
+}
+
+/* done styling desktop-11 */
+
+/* styling the FAQ section */
+.Faqs {
+    height: 1153px;
+}
+
+.faq-content {
+    width: 792px;
+    height: 955px;
+    background-color: #FFFFFF;
+    position: absolute;
+    margin-inline: 200px;
+    margin-block: 50px; 
+} 
+
+.faq-content header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.faq-content .questions {
+    height: 843px;
+    margin-block: 66px;
+}
+
+.questions p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+
+    &::after {
+        content: "+";
+        font-size: 2rem;
+        font-weight: 500;
+        position: absolute;
+        right: 0.5rem;
+        transition: transform 0.5s ease;
+      }
+}
+
+.questions p.bottom-border1 {
+    padding-bottom: 20px;
+    border-bottom: solid #D6D6D6;
+    font-size: 16px;
+
+    &::after {
+        content: "-";
+        font-size: 2rem;
+        font-weight: 500;
+        position: absolute;
+        right: 0.5rem;
+        transition: transform 0.5s ease;
+      }
+}
+
+.questions p.bottom-border {
+    padding-bottom: 20px;
+    padding-top: 9px;
+    border-bottom: solid #D6D6D6;
+}
+/* done with FAQ section */
+
+/* starting Revolutionizing section */
+.revolution {
+    height: 299px;
+    background-color: #1e3448;
+    position: relative;
+}
+
+.revolution .header2 {
+    width: 806px;
+    height: 137px;
+    position: absolute;
+    margin-inline: 250px;
+    margin-block: 100px;
+}
+
+.revolution header {
+    color: #FFFFFF;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header2 span.start {
+    color: #FFFFFF;
+    position: absolute;
+    margin-inline: 280px;
+    margin-block: 45px;
+    padding-block: 10px;
+    padding-inline: 40px;
+    background-color: #005AE2;
+    border: 1px;
+    border-radius: 20px;
+}
+/* done with Revolutionizing section */
+
+/* styling Footer section */
+
+.footer {
+    height: 561px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .logos {
+    width: 184px;
+    height: 96px;
+    margin-block: 90px;
+    margin-inline: 100px;
+}
+
+.footer .footer-content {
+    max-width: 70%; 
+    height: 384px;
+    left: 50%;
+    margin-block: 80px;
+    display: flex; 
+}
+
+.footer-content p{
+    color: #112232;
+    font-size: 16px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.footer-content .footer-content1 {
+    width: 180px;
+    height: inherit;
+}
+
+.footer-content1 .why-sc {
+    width: 179px;
+    height: 104px;
+    bottom: 20px;
+    margin-inline: 20px;
+}
+
+.footer-content1 .why-sc h4 {
+    font-family: 'Gilroy-Bold', sans-serif
+}
+
+.footer-content1 .why-sc p {
+    color: #112232;
+    font-size: 16px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    margin-top: 0px;
+}
+
+.footer-content1 .resources {
+    width: 180px;
+    height: 224px;
+    margin-top: 34px;
+    margin-inline: 20px;
+}
+.resources h4 {
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.footer-content .footer-content2 {
+    width: 201px;
+    height: 335px;
+}
+
+.footer-content .footer-content3 {
+    width: 211px;
+    height: 312px;
+}
+
+.footer-content .footer-content4 {
+    width: 184px;
+    height: 172px;
+}
+
+/* finally done styling everything */
